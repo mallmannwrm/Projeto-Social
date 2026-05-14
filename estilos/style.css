@@ -39,9 +39,17 @@ iframe#tela {
     width: 266px;
     height: 469px;
 }
+#redessociais img {
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px black;
+    box-sizing: border-box;
+}
 #redessociais {
-    background-color: blue;
-    position: relative;
-    width: 200px;
-    height: 200px;
+    text-align: center;
+}
+#redessociais img:hover {
+    border: 2px solid white;
+    transition: 1s;
 }
